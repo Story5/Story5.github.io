@@ -1,0 +1,8 @@
+{
+  "name": "blog-ionic-support",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "pro_id": "f396f3d3"
+}
