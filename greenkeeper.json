@@ -1,0 +1,9 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "blog-ionic-support/package.json"
+      ]
+    }
+  }
+}
