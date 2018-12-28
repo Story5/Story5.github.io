@@ -7,7 +7,7 @@ import { ArticlePage } from '../article/article';
 // 我的
 import { MinePage } from '../mine/mine';
 // 支持
-import { SupportPage } from '../support/support';
+import { ProjectPage } from '../project/project';
 
 @Component({
   templateUrl: 'tabs.html'
@@ -16,8 +16,8 @@ export class TabsPage {
 
   tab1Root = HomePage;
   tab2Root = ArticlePage;
-  tab3Root = MinePage;
-  tab4Root = SupportPage;
+  tab3Root = ProjectPage;
+  tab4Root = MinePage;
 
   constructor() {
 

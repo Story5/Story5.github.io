@@ -8,14 +8,15 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { HomePage } from '../pages/home/home';
 // 文章
 import { ArticlePage } from '../pages/article/article';
+// 项目
+import { ProjectPage } from '../pages/project/project';
+import { PasswordManagerPage } from '../pages/project/projectHub/password-manager/password-manager';
 // 我的
 import { MinePage } from '../pages/mine/mine';
-// 支持
 
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
-import { SupportPage } from '../pages/support/support';
 
 @NgModule({
   declarations: [
@@ -25,10 +26,11 @@ import { SupportPage } from '../pages/support/support';
     HomePage,
     // 文章
     ArticlePage,
+    // 项目
+    ProjectPage,
+    PasswordManagerPage,
     // 我的
-    MinePage,
-    // 支持
-    SupportPage
+    MinePage
   ],
   imports: [
     BrowserModule,
@@ -42,10 +44,11 @@ import { SupportPage } from '../pages/support/support';
     HomePage,
     // 文章
     ArticlePage,
+    // 项目
+    ProjectPage,
+    PasswordManagerPage,
     // 我的
-    MinePage,
-    // 支持
-    SupportPage
+    MinePage
   ],
   providers: [
     StatusBar,
