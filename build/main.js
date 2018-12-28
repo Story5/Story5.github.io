@@ -105,7 +105,7 @@ var HomePage = /** @class */ (function () {
     }
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"/Users/Story5/Story5/01Project/GitHub/02 Public/Story5.github.io/blog-ionic-support/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>首页</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <ion-list no-lines>\n    <ion-item text-wrap>\n       本人Story5于20180809日开始在github托管维护博客\n    </ion-item>\n    <ion-item text-wrap>\n       该博客由ionic框架开发支持,相应源码在github开源\n    </ion-item>\n    <ion-item text-wrap>\n       博客内容更新中,敬请期待\n    </ion-item>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"/Users/Story5/Story5/01Project/GitHub/02 Public/Story5.github.io/blog-ionic-support/src/pages/home/home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"/Users/Story5/Story5/01Project/GitHub/02 Public/Story5.github.io/blog-ionic-support/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title text-center>首页</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-list no-lines>\n    <ion-item text-wrap>\n       本人Story5于20180809日开始在github托管维护博客\n    </ion-item>\n    <ion-item text-wrap>\n       该博客由ionic框架开发支持,相应源码在github开源\n    </ion-item>\n    <ion-item text-wrap>\n       博客内容更新中,敬请期待\n    </ion-item>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"/Users/Story5/Story5/01Project/GitHub/02 Public/Story5.github.io/blog-ionic-support/src/pages/home/home.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
     ], HomePage);
@@ -140,7 +140,7 @@ var ArticlePage = /** @class */ (function () {
     }
     ArticlePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-article',template:/*ion-inline-start:"/Users/Story5/Story5/01Project/GitHub/02 Public/Story5.github.io/blog-ionic-support/src/pages/article/article.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      文章\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"/Users/Story5/Story5/01Project/GitHub/02 Public/Story5.github.io/blog-ionic-support/src/pages/article/article.html"*/
+            selector: 'page-article',template:/*ion-inline-start:"/Users/Story5/Story5/01Project/GitHub/02 Public/Story5.github.io/blog-ionic-support/src/pages/article/article.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title text-center>文章</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n\n</ion-content>\n'/*ion-inline-end:"/Users/Story5/Story5/01Project/GitHub/02 Public/Story5.github.io/blog-ionic-support/src/pages/article/article.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
     ], ArticlePage);
@@ -175,7 +175,7 @@ var MinePage = /** @class */ (function () {
     }
     MinePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-mine',template:/*ion-inline-start:"/Users/Story5/Story5/01Project/GitHub/02 Public/Story5.github.io/blog-ionic-support/src/pages/mine/mine.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      我的\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n</ion-content>\n'/*ion-inline-end:"/Users/Story5/Story5/01Project/GitHub/02 Public/Story5.github.io/blog-ionic-support/src/pages/mine/mine.html"*/
+            selector: 'page-mine',template:/*ion-inline-start:"/Users/Story5/Story5/01Project/GitHub/02 Public/Story5.github.io/blog-ionic-support/src/pages/mine/mine.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title text-center>我的</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n</ion-content>\n'/*ion-inline-end:"/Users/Story5/Story5/01Project/GitHub/02 Public/Story5.github.io/blog-ionic-support/src/pages/mine/mine.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
     ], MinePage);
@@ -215,7 +215,7 @@ var ProjectPage = /** @class */ (function () {
     };
     ProjectPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["m" /* Component */])({
-            selector: 'page-project',template:/*ion-inline-start:"/Users/Story5/Story5/01Project/GitHub/02 Public/Story5.github.io/blog-ionic-support/src/pages/project/project.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      项目\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-list>\n    <ion-item (click)="clickItem()" detail-push>\n      <ion-label color="primary">财务管理系统</ion-label>\n    </ion-item>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"/Users/Story5/Story5/01Project/GitHub/02 Public/Story5.github.io/blog-ionic-support/src/pages/project/project.html"*/
+            selector: 'page-project',template:/*ion-inline-start:"/Users/Story5/Story5/01Project/GitHub/02 Public/Story5.github.io/blog-ionic-support/src/pages/project/project.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title text-center>项目</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-list>\n    <ion-item (click)="clickItem()" detail-push>\n      <ion-label color="primary">财务管理系统</ion-label>\n    </ion-item>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"/Users/Story5/Story5/01Project/GitHub/02 Public/Story5.github.io/blog-ionic-support/src/pages/project/project.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["e" /* NavController */]])
     ], ProjectPage);
@@ -402,7 +402,12 @@ var AppModule = /** @class */ (function () {
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__["a" /* BrowserModule */],
-                __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */], {}, {
+                __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */], {
+                    iconMode: 'ios',
+                    pageTransition: 'ios-transition',
+                    swipeBackEnabled: true,
+                    tabsHideOnSubPages: true
+                }, {
                     links: []
                 })
             ],
