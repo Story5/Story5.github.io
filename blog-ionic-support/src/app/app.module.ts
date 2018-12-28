@@ -1,6 +1,6 @@
 import { NgModule, ErrorHandler } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
+import { IonicApp, IonicModule, IonicErrorHandler, IonicPageModule } from 'ionic-angular';
 import { MyApp } from './app.component';
 
 import { TabsPage } from '../pages/tabs/tabs';
@@ -9,8 +9,7 @@ import { HomePage } from '../pages/home/home';
 // 文章
 import { ArticlePage } from '../pages/article/article';
 // 项目
-import { ProjectPage } from '../pages/project/project';
-import { PasswordManagerPage } from '../pages/project/projectHub/password-manager/password-manager';
+import { ProjectPageModule } from './../pages/project/project.module';
 // 我的
 import { MinePage } from '../pages/mine/mine';
 
@@ -26,9 +25,6 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     // 文章
     ArticlePage,
-    // 项目
-    ProjectPage,
-    PasswordManagerPage,
     // 我的
     MinePage
   ],
@@ -39,7 +35,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
       pageTransition: 'ios-transition',
       swipeBackEnabled: true,
       tabsHideOnSubPages: true
-    })
+    }),
+    ProjectPageModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -49,9 +46,6 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     // 文章
     ArticlePage,
-    // 项目
-    ProjectPage,
-    PasswordManagerPage,
     // 我的
     MinePage
   ],

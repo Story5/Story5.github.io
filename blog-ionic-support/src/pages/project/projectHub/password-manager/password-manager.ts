@@ -1,6 +1,10 @@
 import { Component } from '@angular/core';
-import { NavController, AlertController } from 'ionic-angular';
+import { NavController, AlertController, IonicPage } from 'ionic-angular';
 
+@IonicPage({
+  name: "password-manager",
+  segment: "password-manager"
+})
 @Component({
   selector: 'page-password-manager',
   templateUrl: 'password-manager.html'

@@ -1,7 +1,11 @@
 import { PasswordManagerPage } from './projectHub/password-manager/password-manager';
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { NavController, IonicPage } from 'ionic-angular';
 
+@IonicPage({
+  name:"project-page",
+  segment:"project"
+})
 @Component({
   selector: 'page-project',
   templateUrl: 'project.html'
