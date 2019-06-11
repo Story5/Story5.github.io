@@ -1,0 +1,113 @@
+$font_family_STKaiti: "STKaiti";
+$font_family_STFangsong: "STFangsong";
+
+page-bj {
+  .slide1 {
+    $slide1_text1_top: 200px;
+    $slide1_text1_left: 20px;
+    $slide1_text1_font: 70px;
+
+    $slide1_line_width: 280px;
+    $slide1_line_height: 4px;
+
+    $slide1_text2_left: 20px;
+    $slide1_text2_font: 50px;
+
+    .bj_text1 {
+      color: white;
+      position: absolute;
+      top: $slide1_text1_top;
+      left: $slide1_text1_left;
+      font-size: $slide1_text1_font;
+      font-family: $font_family_STKaiti;
+    }
+
+    .bj_line {
+      background-color: white;
+      width: $slide1_line_width;
+      height: $slide1_line_height;
+      position: absolute;
+      top: $slide1_text1_top + $slide1_text1_font + 10px;
+    }
+
+    .bj_text2 {
+      color: white;
+      position: absolute;
+      top: $slide1_text1_top + $slide1_text1_font + 10px + $slide1_line_height + 5px;
+      left: $slide1_text1_left + $slide1_text1_font;
+      font-size: $slide1_text2_font;
+      font-family: $font_family_STKaiti;
+    }
+  }
+
+  .slide3,
+  .slide5,
+  .slide7,
+  .slide9,
+  .slide11,
+  .slide13,
+  .slide15 {
+    .bj_text {
+      position: absolute;
+      top: 90px;
+      padding: 0px 50px 0px 50px;
+      text-align: left;
+      font-size: 18px;
+      line-height: 32px;
+    }
+  }
+
+  .slide3 {
+    .bj_text {
+      color: black;
+      font-family: $font_family_STFangsong;
+    }
+  }
+
+  .slide5 {
+    .bj_text {
+      color: white;
+      font-family: $font_family_STKaiti;
+    }
+  }
+
+  .slide7 {
+    .bj_text {
+      color: white;
+      font-family: $font_family_STFangsong;
+    }
+  }
+
+  .slide9 {
+    .bj_text {
+      color: black;
+      font-family: $font_family_STKaiti;
+    }
+  }
+
+  .slide11 {
+    .bj_text {
+      color: black;
+      font-family: $font_family_STFangsong;
+    }
+  }
+
+  .slide13 {
+    .bj_text {
+      color: black;
+      font-family: $font_family_STKaiti;
+    }
+  }
+
+  .slide15 {
+    .bj_text {
+      color: black;
+      font-family: $font_family_STFangsong;
+    }
+  }
+
+  .bj_background {
+    width: 100%;
+    height: 100%;
+  }
+}

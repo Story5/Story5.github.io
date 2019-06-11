@@ -3920,6 +3920,10 @@ textarea::-webkit-input-placeholder {
   padding-left: 2px;
 }
 
+textarea::-moz-placeholder {
+  padding-left: 2px;
+}
+
 textarea::-ms-input-placeholder {
   padding-left: 2px;
 }
@@ -24720,4 +24724,85 @@ ion-navbar.toolbar {
   padding-bottom: calc(env(safe-area-inset-bottom) + 4px);
   min-height: calc(46px + constant(safe-area-inset-bottom));
   min-height: calc(46px + env(safe-area-inset-bottom));
+}
+
+page-bj .slide1 .bj_text1 {
+  color: white;
+  position: absolute;
+  top: 200px;
+  left: 20px;
+  font-size: 70px;
+  font-family: "STKaiti";
+}
+
+page-bj .slide1 .bj_line {
+  background-color: white;
+  width: 280px;
+  height: 4px;
+  position: absolute;
+  top: 280px;
+}
+
+page-bj .slide1 .bj_text2 {
+  color: white;
+  position: absolute;
+  top: 289px;
+  left: 90px;
+  font-size: 50px;
+  font-family: "STKaiti";
+}
+
+page-bj .slide3 .bj_text,
+page-bj .slide5 .bj_text,
+page-bj .slide7 .bj_text,
+page-bj .slide9 .bj_text,
+page-bj .slide11 .bj_text,
+page-bj .slide13 .bj_text,
+page-bj .slide15 .bj_text {
+  position: absolute;
+  top: 90px;
+  padding: 0px 50px 0px 50px;
+  text-align: left;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+page-bj .slide3 .bj_text {
+  color: black;
+  font-family: "STFangsong";
+}
+
+page-bj .slide5 .bj_text {
+  color: white;
+  font-family: "STKaiti";
+}
+
+page-bj .slide7 .bj_text {
+  color: white;
+  font-family: "STFangsong";
+}
+
+page-bj .slide9 .bj_text {
+  color: black;
+  font-family: "STKaiti";
+}
+
+page-bj .slide11 .bj_text {
+  color: black;
+  font-family: "STFangsong";
+}
+
+page-bj .slide13 .bj_text {
+  color: black;
+  font-family: "STKaiti";
+}
+
+page-bj .slide15 .bj_text {
+  color: black;
+  font-family: "STFangsong";
+}
+
+page-bj .bj_background {
+  width: 100%;
+  height: 100%;
 }

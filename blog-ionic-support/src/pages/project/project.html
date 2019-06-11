@@ -6,8 +6,8 @@
 
 <ion-content>
   <ion-list>
-    <ion-item (click)="clickItem()" detail-push>
-      <ion-label color="primary">财务管理系统</ion-label>
+    <ion-item *ngFor="let item of projects;let i = index" (click)="clickItem(i)" detail-push>
+      <ion-label color="primary">{{item.title}}</ion-label>
     </ion-item>
   </ion-list>
 </ion-content>
