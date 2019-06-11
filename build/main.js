@@ -221,16 +221,16 @@ var ResultPage = /** @class */ (function () {
         console.log("str:", str);
         console.log("join:", Array(12 - str.length + 1).join('0'));
         var str_12 = Array(12 - str.length + 1).join('0') + str;
-        return "assets/images/result/" + str_12 + ".png";
+        return "assets/images/result/" + str_12 + ".jpg";
     };
     ResultPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-result',template:/*ion-inline-start:"/Users/story5/Story5/01 Project/01 Github/baojun/src/pages/result/result.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>测试结果</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <img class="result_img" [src]="src">\n</ion-content>\n'/*ion-inline-end:"/Users/story5/Story5/01 Project/01 Github/baojun/src/pages/result/result.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]) === "function" && _b || Object])
     ], ResultPage);
     return ResultPage;
+    var _a, _b;
 }());
 
 //# sourceMappingURL=result.js.map
