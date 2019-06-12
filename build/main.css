@@ -25814,7 +25814,7 @@ page-bj .slide_18 {
 page-bj .slide_1 .bj_text_area {
   width: 80%;
   position: absolute;
-  top: 90px;
+  top: calc(5px + env(safe-area-inset-top));
   text-align: left;
 }
 
@@ -25854,7 +25854,7 @@ page-bj .slide_17 .bj_text {
   font-size: 18px;
   line-height: 32px;
   position: absolute;
-  top: 90px;
+  top: calc(5px + env(safe-area-inset-top));
 }
 
 page-bj .slide_2 .bj_text {
@@ -25867,12 +25867,14 @@ page-bj .slide_3 .bj_text {
   font-family: "STFangsong";
 }
 
-page-bj .slide_4 .bj_area {
+page-bj .slide_4 .bj_area,
+page-bj .slide_8 .bj_area {
   width: 100vw;
   height: 100vh;
 }
 
-page-bj .slide_4 .bj_area .bj_title {
+page-bj .slide_4 .bj_area .bj_title,
+page-bj .slide_8 .bj_area .bj_title {
   width: 100%;
   color: black;
   font-size: 20px;
@@ -25880,21 +25882,26 @@ page-bj .slide_4 .bj_area .bj_title {
   top: calc(5px + env(safe-area-inset-top));
 }
 
-page-bj .slide_4 .bj_area .bj_grid_title {
+page-bj .slide_4 .bj_area .bj_grid_title,
+page-bj .slide_8 .bj_area .bj_grid_title {
   text-align: left;
   padding-left: 10px;
 }
 
-page-bj .slide_4 .bj_area .bj_grid {
-  position: absolute;
-  width: 60%;
+page-bj .slide_4 .bj_area .bj_grid,
+page-bj .slide_8 .bj_area .bj_grid {
+  position: relative;
+  width: 80%;
+  margin: 0px;
 }
 
-page-bj .slide_4 .bj_area .bj_grid ion-col {
+page-bj .slide_4 .bj_area .bj_grid ion-col,
+page-bj .slide_8 .bj_area .bj_grid ion-col {
   text-align: left;
 }
 
-page-bj .slide_4 .bj_area .bj_grid ion-col .bj_col_box {
+page-bj .slide_4 .bj_area .bj_grid ion-col .bj_col_box,
+page-bj .slide_8 .bj_area .bj_grid ion-col .bj_col_box {
   width: 16px;
   height: 16px;
   float: left;
@@ -25903,9 +25910,18 @@ page-bj .slide_4 .bj_area .bj_grid ion-col .bj_col_box {
   margin-top: -8px;
 }
 
-page-bj .slide_4 .bj_area .bj_grid ion-col .bj_col_title {
+page-bj .slide_4 .bj_area .bj_grid ion-col .bj_col_title,
+page-bj .slide_8 .bj_area .bj_grid ion-col .bj_col_title {
   font-size: 16px;
   padding-left: 5px;
+}
+
+page-bj .slide_4 .bj_area .bj_bottom_title,
+page-bj .slide_8 .bj_area .bj_bottom_title {
+  font-size: 14px;
+  text-align: left;
+  margin-top: 20px;
+  padding: 0px 16px 0px 16px;
 }
 
 page-bj .slide_5 .bj_text {
@@ -25913,36 +25929,42 @@ page-bj .slide_5 .bj_text {
   font-family: "STKaiti";
 }
 
-page-bj .slide_6 .bj_slide_area {
+page-bj .slide_6 .bj_slide_area,
+page-bj .slide_10 .bj_slide_area {
   width: 100vw;
   height: 100vh;
 }
 
-page-bj .slide_6 .bj_slide_area .bj_title {
+page-bj .slide_6 .bj_slide_area .bj_title,
+page-bj .slide_10 .bj_slide_area .bj_title {
   color: black;
   width: 100%;
   font-size: 30px;
   text-align: center;
-  margin-top: 90px;
+  margin-top: calc(5px + env(safe-area-inset-top));
   margin-bottom: 30px;
 }
 
-page-bj .slide_6 .bj_slide_area .bj_echarts_area {
+page-bj .slide_6 .bj_slide_area .bj_echarts_area,
+page-bj .slide_10 .bj_slide_area .bj_echarts_area {
   width: 100%;
 }
 
-page-bj .slide_6 .bj_slide_area .bj_echarts_area .bj_echarts_container {
+page-bj .slide_6 .bj_slide_area .bj_echarts_area .bj_echarts_container,
+page-bj .slide_10 .bj_slide_area .bj_echarts_area .bj_echarts_container {
   width: 100%;
   height: 400px;
   padding: 5px 5px 5px 5px;
 }
 
-page-bj .slide_6 .bj_slide_area .bj_count_area {
+page-bj .slide_6 .bj_slide_area .bj_count_area,
+page-bj .slide_10 .bj_slide_area .bj_count_area {
   text-align: left;
   padding-left: 20px;
 }
 
-page-bj .slide_6 .bj_slide_area .bj_count_area .bj_count_line {
+page-bj .slide_6 .bj_slide_area .bj_count_area .bj_count_line,
+page-bj .slide_10 .bj_slide_area .bj_count_area .bj_count_line {
   width: calc(100% - 20px);
   height: 40px;
   background-color: #d8d8d8;
@@ -25950,7 +25972,8 @@ page-bj .slide_6 .bj_slide_area .bj_count_area .bj_count_line {
   border-right: solid #aeaeae 3px;
 }
 
-page-bj .slide_6 .bj_slide_area .bj_count_area .bj_count_value {
+page-bj .slide_6 .bj_slide_area .bj_count_area .bj_count_value,
+page-bj .slide_10 .bj_slide_area .bj_count_area .bj_count_value {
   font-size: 30px;
   position: relative;
   float: right;
@@ -25958,7 +25981,8 @@ page-bj .slide_6 .bj_slide_area .bj_count_area .bj_count_value {
   margin-right: 20px;
 }
 
-page-bj .slide_6 .bj_slide_area .bj_count_area .bj_count_des {
+page-bj .slide_6 .bj_slide_area .bj_count_area .bj_count_des,
+page-bj .slide_10 .bj_slide_area .bj_count_area .bj_count_des {
   width: calc(100% - 20px);
   margin-top: 20px;
 }
@@ -25993,40 +26017,46 @@ page-bj .slide_17 .bj_text {
   font-family: "STKaiti";
 }
 
-page-bj .slide_19 .bj_text1 {
+page-bj .slide_19 .bj_slide_area {
+  width: 100vw;
+  height: 100vh;
+}
+
+page-bj .slide_19 .bj_slide_area .bj_text1 {
   color: white;
   font-size: 25px;
   font-family: "STKaiti";
   position: absolute;
-  top: 90px;
+  top: calc(5px + env(safe-area-inset-top));
   left: calc(100% - 55px);
 }
 
-page-bj .slide_19 .bj_text2 {
+page-bj .slide_19 .bj_slide_area .bj_text2 {
   color: white;
   font-size: 25px;
   font-family: "STKaiti";
   position: absolute;
-  top: 115px;
+  top: calc(30px + env(safe-area-inset-top));
   left: calc(100% - 95px);
 }
 
-page-bj .slide_19 .bj_text2 .bj_text2_point {
+page-bj .slide_19 .bj_slide_area .bj_text2 .bj_text2_point {
   color: #fff45c;
   font-size: 30px;
 }
 
-page-bj .slide_19 .bj_grid {
+page-bj .slide_19 .bj_slide_area .bj_grid {
   width: 75%;
-  position: absolute;
-  top: 140px;
+  margin: 0px;
+  position: relative;
+  top: calc(80px + env(safe-area-inset-top));
 }
 
-page-bj .slide_19 .bj_grid .bj_row .bj_col {
+page-bj .slide_19 .bj_slide_area .bj_grid .bj_row .bj_col {
   padding: 5px 5px 5px 5px;
 }
 
-page-bj .slide_19 .bj_grid .bj_row .bj_col .col_background {
+page-bj .slide_19 .bj_slide_area .bj_grid .bj_row .bj_col .col_background {
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
@@ -26036,20 +26066,34 @@ page-bj .slide_19 .bj_grid .bj_row .bj_col .col_background {
   z-index: 0;
 }
 
-page-bj .slide_19 .bj_grid .bj_row .bj_col .col_background .col_text {
+page-bj .slide_19 .bj_slide_area .bj_grid .bj_row .bj_col .col_background .col_text {
   font-size: 25px;
   font-family: "STKaiti";
   z-index: 1;
 }
 
-page-bj .slide_19 .bj_grid .bj_row .bj_col .col_background .col_space {
+page-bj .slide_19 .bj_slide_area .bj_grid .bj_row .bj_col .col_background .col_space {
   min-height: 10px;
   height: 10px;
   z-index: 1;
 }
 
-page-bj .slide_19 .bj_grid .bj_row .bj_col .col_background.selected {
-  background-image: url(../assets/images/cloud.png);
+page-bj .slide_19 .bj_slide_area .bj_grid .bj_row .bj_col .col_background.selected {
+  background-image: url(../assets/images/cloud_v.png);
+}
+
+page-bj .slide_19 .bj_slide_area .bj_button {
+  background-image: url(../assets/images/cloud_h.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 94px;
+  min-width: 94px;
+  min-height: 94px;
+  height: 34px;
+  font-size: 25px;
+  font-family: "STKaiti";
+  position: relative;
+  margin-top: 50px;
 }
 
 page-result .result_img {
