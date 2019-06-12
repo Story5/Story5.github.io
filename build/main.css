@@ -25814,7 +25814,7 @@ page-bj .slide_18 {
 page-bj .slide_1 .bj_text_area {
   width: 80%;
   position: absolute;
-  top: calc(44px + env(safe-area-inset-top));
+  top: calc(88px + env(safe-area-inset-top));
   text-align: left;
 }
 
@@ -25891,16 +25891,18 @@ page-bj .slide_8 .bj_slide_area .bj_title {
   width: 100%;
   color: black;
   font-size: 20px;
+  line-height: 30px;
+  margin: 16px 0px;
   position: absolute;
-  top: calc(74px + env(safe-area-inset-top));
+  top: calc(88px + env(safe-area-inset-top));
 }
 
 page-bj .slide_4 .bj_slide_area .bj_img,
 page-bj .slide_8 .bj_slide_area .bj_img {
   width: 100%;
-  height: calc(100vw * 517 / 733);
+  height: calc(100vw * 400 / 686);
   position: relative;
-  top: calc(124px + env(safe-area-inset-top));
+  top: calc(150px + env(safe-area-inset-top));
 }
 
 page-bj .slide_4 .bj_slide_area .bj_grid_title,
@@ -25908,13 +25910,13 @@ page-bj .slide_8 .bj_slide_area .bj_grid_title {
   text-align: left;
   padding-left: 10px;
   position: relative;
-  top: calc(124px + env(safe-area-inset-top));
+  top: calc(150px + env(safe-area-inset-top));
 }
 
 page-bj .slide_4 .bj_slide_area .bj_grid,
 page-bj .slide_8 .bj_slide_area .bj_grid {
   position: relative;
-  top: calc(124px + env(safe-area-inset-top));
+  top: calc(150px + env(safe-area-inset-top));
   width: 80%;
   margin: 0px;
 }
@@ -25965,15 +25967,19 @@ page-bj .slide_6 .bj_slide_area .bj_title,
 page-bj .slide_10 .bj_slide_area .bj_title {
   color: black;
   width: 100%;
-  font-size: 30px;
   text-align: center;
-  margin-top: calc(74px + env(safe-area-inset-top));
-  margin-bottom: 30px;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 16px 0px;
+  position: absolute;
+  top: calc(88px + env(safe-area-inset-top));
 }
 
 page-bj .slide_6 .bj_slide_area .bj_echarts_area,
 page-bj .slide_10 .bj_slide_area .bj_echarts_area {
   width: 100%;
+  position: relative;
+  top: calc(150px + env(safe-area-inset-top));
 }
 
 page-bj .slide_6 .bj_slide_area .bj_echarts_area .bj_echarts_container,
@@ -25987,6 +25993,8 @@ page-bj .slide_6 .bj_slide_area .bj_count_area,
 page-bj .slide_10 .bj_slide_area .bj_count_area {
   text-align: left;
   padding-left: 20px;
+  position: relative;
+  top: calc(150px + env(safe-area-inset-top));
 }
 
 page-bj .slide_6 .bj_slide_area .bj_count_area .bj_count_line,
