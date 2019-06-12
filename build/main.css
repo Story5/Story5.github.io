@@ -25866,18 +25866,18 @@ page-bj .slide_17 .bj_slide_area .bj_text {
   text-align: left;
   font-size: 18px;
   line-height: 32px;
-  position: relative;
+  position: absolute;
   top: calc(74px + env(safe-area-inset-top));
 }
 
 page-bj .slide_2 .bj_text {
   color: black;
-  font-family: "STFangsong";
+  font-family: "SimSun";
 }
 
 page-bj .slide_3 .bj_text {
   color: black;
-  font-family: "STFangsong";
+  font-family: "SimSun";
 }
 
 page-bj .slide_4 .bj_slide_area,
@@ -26008,7 +26008,7 @@ page-bj .slide_10 .bj_slide_area .bj_count_area .bj_count_des {
 
 page-bj .slide_7 .bj_text {
   color: white;
-  font-family: "STFangsong";
+  font-family: "SimSun";
 }
 
 page-bj .slide_9 .bj_text {
@@ -26018,7 +26018,7 @@ page-bj .slide_9 .bj_text {
 
 page-bj .slide_11 .bj_text {
   color: black;
-  font-family: "STFangsong";
+  font-family: "SimSun";
 }
 
 page-bj .slide_13 .bj_text {
@@ -26028,7 +26028,7 @@ page-bj .slide_13 .bj_text {
 
 page-bj .slide_15 .bj_text {
   color: black;
-  font-family: "STFangsong";
+  font-family: "SimSun";
 }
 
 page-bj .slide_17 .bj_text {
@@ -26115,7 +26115,20 @@ page-bj .slide_19 .bj_slide_area .bj_button {
   margin-top: 50px;
 }
 
-page-result .result_img {
+page-result .bj_content {
   width: 100%;
   height: 100%;
+}
+
+page-result .bj_content .result_img {
+  width: 100%;
+  height: 100%;
+}
+
+page-result .bj_content .bj_qrcode {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 16px;
+  right: 16px;
 }

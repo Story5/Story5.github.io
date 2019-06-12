@@ -414,7 +414,7 @@ var ResultPage = /** @class */ (function () {
     };
     ResultPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-result',template:/*ion-inline-start:"/Users/story5/Story5/01 Project/01 Github/baojun/src/pages/result/result.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>测试结果</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <img class="result_img" [src]="src">\n</ion-content>\n'/*ion-inline-end:"/Users/story5/Story5/01 Project/01 Github/baojun/src/pages/result/result.html"*/,
+            selector: 'page-result',template:/*ion-inline-start:"/Users/story5/Story5/01 Project/01 Github/baojun/src/pages/result/result.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>测试结果</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <div class="bj_content">\n      <img class="result_img" [src]="src">\n      <img class="bj_qrcode" src="assets/images/qrcode.png">\n  </div>\n</ion-content>\n'/*ion-inline-end:"/Users/story5/Story5/01 Project/01 Github/baojun/src/pages/result/result.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
