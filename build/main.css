@@ -26112,7 +26112,8 @@ page-bj .slide_19 .bj_slide_area .bj_button {
   font-size: 25px;
   font-family: "STKaiti";
   position: relative;
-  margin-top: 50px;
+  left: 0px;
+  bottom: -94px;
 }
 
 page-result .bj_content {
