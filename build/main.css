@@ -25891,25 +25891,30 @@ page-bj .slide_8 .bj_slide_area .bj_title {
   width: 100%;
   color: black;
   font-size: 20px;
-  margin-top: calc(74px + env(safe-area-inset-top));
+  position: absolute;
+  top: calc(74px + env(safe-area-inset-top));
 }
 
 page-bj .slide_4 .bj_slide_area .bj_img,
 page-bj .slide_8 .bj_slide_area .bj_img {
   width: 100%;
   height: calc(100vw * 517 / 733);
-  margin-top: 30px;
+  position: relative;
+  top: calc(124px + env(safe-area-inset-top));
 }
 
 page-bj .slide_4 .bj_slide_area .bj_grid_title,
 page-bj .slide_8 .bj_slide_area .bj_grid_title {
   text-align: left;
   padding-left: 10px;
+  position: relative;
+  top: calc(124px + env(safe-area-inset-top));
 }
 
 page-bj .slide_4 .bj_slide_area .bj_grid,
 page-bj .slide_8 .bj_slide_area .bj_grid {
   position: relative;
+  top: calc(124px + env(safe-area-inset-top));
   width: 80%;
   margin: 0px;
 }
@@ -25939,8 +25944,10 @@ page-bj .slide_4 .bj_slide_area .bj_bottom_title,
 page-bj .slide_8 .bj_slide_area .bj_bottom_title {
   font-size: 14px;
   text-align: left;
-  margin-top: 20px;
   padding: 0px 16px 0px 16px;
+  margin-top: 20px;
+  position: relative;
+  top: calc(124px + env(safe-area-inset-top));
 }
 
 page-bj .slide_5 .bj_text {
@@ -26064,6 +26071,14 @@ page-bj .slide_19 .bj_slide_area .bj_text2 .bj_text2_point {
   font-size: 30px;
 }
 
+page-bj .slide_19 .bj_slide_area .bj_line {
+  background-color: white;
+  width: calc(100% - 120px);
+  height: 4px;
+  position: relative;
+  top: calc(99px + env(safe-area-inset-top));
+}
+
 page-bj .slide_19 .bj_slide_area .bj_grid {
   width: 75%;
   margin: 0px;
@@ -26086,7 +26101,7 @@ page-bj .slide_19 .bj_slide_area .bj_grid .bj_row .bj_col .col_background {
 }
 
 page-bj .slide_19 .bj_slide_area .bj_grid .bj_row .bj_col .col_background .col_text {
-  font-size: 25px;
+  font-size: 20px;
   font-family: "STKaiti";
   z-index: 1;
 }
@@ -26109,11 +26124,12 @@ page-bj .slide_19 .bj_slide_area .bj_button {
   min-width: 94px;
   min-height: 94px;
   height: 34px;
-  font-size: 25px;
+  font-size: 20px;
   font-family: "STKaiti";
   position: relative;
-  left: 0px;
-  bottom: -94px;
+  top: calc(124px + env(safe-area-inset-top));
+  float: left;
+  margin-left: 25px;
 }
 
 page-result .bj_content {
@@ -26127,8 +26143,8 @@ page-result .bj_content .result_img {
 }
 
 page-result .bj_content .bj_qrcode {
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   position: absolute;
   top: 16px;
   right: 16px;
