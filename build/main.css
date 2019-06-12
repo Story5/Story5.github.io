@@ -25814,14 +25814,14 @@ page-bj .slide_18 {
 page-bj .slide_1 .bj_text_area {
   width: 80%;
   position: absolute;
-  top: calc(0px + env(safe-area-inset-top));
+  top: calc(44px + env(safe-area-inset-top));
   text-align: left;
 }
 
 page-bj .slide_1 .bj_text_area .bj_text1 {
   color: white;
   font-size: 70px;
-  font-family: "LiSu";
+  font-family: "STKaiti";
   padding-left: 20px;
   margin-bottom: 15px;
 }
@@ -25836,7 +25836,7 @@ page-bj .slide_1 .bj_text_area .bj_line {
 page-bj .slide_1 .bj_text_area .bj_text2 {
   color: white;
   font-size: 50px;
-  font-family: "LiSu";
+  font-family: "STKaiti";
   padding-left: 95px;
 }
 
@@ -25849,8 +25849,8 @@ page-bj .slide_11 .bj_slide_area,
 page-bj .slide_13 .bj_slide_area,
 page-bj .slide_15 .bj_slide_area,
 page-bj .slide_17 .bj_slide_area {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
 }
 
 page-bj .slide_2 .bj_slide_area .bj_text,
@@ -25867,17 +25867,17 @@ page-bj .slide_17 .bj_slide_area .bj_text {
   font-size: 18px;
   line-height: 32px;
   position: relative;
-  top: calc(30px + env(safe-area-inset-top));
+  top: calc(74px + env(safe-area-inset-top));
 }
 
 page-bj .slide_2 .bj_text {
   color: black;
-  font-family: "LiSu";
+  font-family: "STFangsong";
 }
 
 page-bj .slide_3 .bj_text {
   color: black;
-  font-family: "LiSu";
+  font-family: "STFangsong";
 }
 
 page-bj .slide_4 .bj_slide_area,
@@ -25891,7 +25891,7 @@ page-bj .slide_8 .bj_slide_area .bj_title {
   width: 100%;
   color: black;
   font-size: 20px;
-  margin-top: calc(30px + env(safe-area-inset-top));
+  margin-top: calc(74px + env(safe-area-inset-top));
 }
 
 page-bj .slide_4 .bj_slide_area .bj_img,
@@ -25945,7 +25945,7 @@ page-bj .slide_8 .bj_slide_area .bj_bottom_title {
 
 page-bj .slide_5 .bj_text {
   color: white;
-  font-family: "LiSu";
+  font-family: "STKaiti";
 }
 
 page-bj .slide_6 .bj_slide_area,
@@ -25960,7 +25960,7 @@ page-bj .slide_10 .bj_slide_area .bj_title {
   width: 100%;
   font-size: 30px;
   text-align: center;
-  margin-top: calc(30px + env(safe-area-inset-top));
+  margin-top: calc(74px + env(safe-area-inset-top));
   margin-bottom: 30px;
 }
 
@@ -26008,32 +26008,32 @@ page-bj .slide_10 .bj_slide_area .bj_count_area .bj_count_des {
 
 page-bj .slide_7 .bj_text {
   color: white;
-  font-family: "LiSu";
+  font-family: "STFangsong";
 }
 
 page-bj .slide_9 .bj_text {
   color: black;
-  font-family: "LiSu";
+  font-family: "STKaiti";
 }
 
 page-bj .slide_11 .bj_text {
   color: black;
-  font-family: "LiSu";
+  font-family: "STFangsong";
 }
 
 page-bj .slide_13 .bj_text {
   color: black;
-  font-family: "LiSu";
+  font-family: "STKaiti";
 }
 
 page-bj .slide_15 .bj_text {
   color: black;
-  font-family: "LiSu";
+  font-family: "STFangsong";
 }
 
 page-bj .slide_17 .bj_text {
   color: white;
-  font-family: "LiSu";
+  font-family: "STKaiti";
 }
 
 page-bj .slide_19 .bj_slide_area {
@@ -26044,18 +26044,18 @@ page-bj .slide_19 .bj_slide_area {
 page-bj .slide_19 .bj_slide_area .bj_text1 {
   color: white;
   font-size: 25px;
-  font-family: "LiSu";
+  font-family: "STKaiti";
   position: absolute;
-  top: calc(0px + env(safe-area-inset-top));
+  top: calc(44px + env(safe-area-inset-top));
   left: calc(100% - 55px);
 }
 
 page-bj .slide_19 .bj_slide_area .bj_text2 {
   color: white;
   font-size: 25px;
-  font-family: "LiSu";
+  font-family: "STKaiti";
   position: absolute;
-  top: calc(30px + env(safe-area-inset-top));
+  top: calc(74px + env(safe-area-inset-top));
   left: calc(100% - 95px);
 }
 
@@ -26068,7 +26068,7 @@ page-bj .slide_19 .bj_slide_area .bj_grid {
   width: 75%;
   margin: 0px;
   position: relative;
-  top: calc(80px + env(safe-area-inset-top));
+  top: calc(124px + env(safe-area-inset-top));
 }
 
 page-bj .slide_19 .bj_slide_area .bj_grid .bj_row .bj_col {
@@ -26087,7 +26087,7 @@ page-bj .slide_19 .bj_slide_area .bj_grid .bj_row .bj_col .col_background {
 
 page-bj .slide_19 .bj_slide_area .bj_grid .bj_row .bj_col .col_background .col_text {
   font-size: 25px;
-  font-family: "LiSu";
+  font-family: "STKaiti";
   z-index: 1;
 }
 
@@ -26110,7 +26110,7 @@ page-bj .slide_19 .bj_slide_area .bj_button {
   min-height: 94px;
   height: 34px;
   font-size: 25px;
-  font-family: "LiSu";
+  font-family: "STKaiti";
   position: relative;
   margin-top: 50px;
 }
