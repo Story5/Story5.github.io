@@ -25696,6 +25696,13 @@ ion-navbar.toolbar {
   min-height: 46px;
 }
 
+@font-face {
+  font-family: "SIMKAI";
+  src: url(../assets/fonts/SIMKAI.TTF);
+  font-weight: normal;
+  font-style: normal;
+}
+
 page-bj ion-slide {
   background-color: white;
   background-repeat: no-repeat;
@@ -25818,10 +25825,13 @@ page-bj .slide_1 .bj_text_area {
   text-align: left;
 }
 
+page-bj .slide_1 .bj_text_area .bj_text1, page-bj .slide_1 .bj_text_area .bj_text2 {
+  font-family: "SIMKAI";
+}
+
 page-bj .slide_1 .bj_text_area .bj_text1 {
   color: white;
   font-size: 70px;
-  font-family: "STKaiti";
   padding-left: 20px;
   margin-bottom: 15px;
 }
@@ -25836,7 +25846,6 @@ page-bj .slide_1 .bj_text_area .bj_line {
 page-bj .slide_1 .bj_text_area .bj_text2 {
   color: white;
   font-size: 50px;
-  font-family: "STKaiti";
   padding-left: 95px;
 }
 
@@ -25864,6 +25873,7 @@ page-bj .slide_15 .bj_slide_area .bj_text,
 page-bj .slide_17 .bj_slide_area .bj_text {
   padding: 16px 30px 0px 30px;
   text-align: left;
+  font-family: "SIMKAI";
   font-size: 18px;
   line-height: 32px;
   position: absolute;
@@ -25872,12 +25882,10 @@ page-bj .slide_17 .bj_slide_area .bj_text {
 
 page-bj .slide_2 .bj_text {
   color: black;
-  font-family: "SimSun";
 }
 
 page-bj .slide_3 .bj_text {
   color: black;
-  font-family: "SimSun";
 }
 
 page-bj .slide_4 .bj_slide_area,
@@ -25954,7 +25962,6 @@ page-bj .slide_8 .bj_slide_area .bj_bottom_title {
 
 page-bj .slide_5 .bj_text {
   color: white;
-  font-family: "STKaiti";
 }
 
 page-bj .slide_6 .bj_slide_area,
@@ -26023,32 +26030,26 @@ page-bj .slide_10 .bj_slide_area .bj_count_area .bj_count_des {
 
 page-bj .slide_7 .bj_text {
   color: white;
-  font-family: "SimSun";
 }
 
 page-bj .slide_9 .bj_text {
   color: black;
-  font-family: "STKaiti";
 }
 
 page-bj .slide_11 .bj_text {
   color: black;
-  font-family: "SimSun";
 }
 
 page-bj .slide_13 .bj_text {
   color: black;
-  font-family: "STKaiti";
 }
 
 page-bj .slide_15 .bj_text {
   color: black;
-  font-family: "SimSun";
 }
 
 page-bj .slide_17 .bj_text {
   color: white;
-  font-family: "STKaiti";
 }
 
 page-bj .slide_19 .bj_slide_area {
@@ -26059,7 +26060,7 @@ page-bj .slide_19 .bj_slide_area {
 page-bj .slide_19 .bj_slide_area .bj_text1 {
   color: white;
   font-size: 25px;
-  font-family: "STKaiti";
+  font-family: "SIMKAI";
   position: absolute;
   top: calc(44px + env(safe-area-inset-top));
   left: calc(100% - 55px);
@@ -26068,7 +26069,7 @@ page-bj .slide_19 .bj_slide_area .bj_text1 {
 page-bj .slide_19 .bj_slide_area .bj_text2 {
   color: white;
   font-size: 25px;
-  font-family: "STKaiti";
+  font-family: "SIMKAI";
   position: absolute;
   top: calc(70px + env(safe-area-inset-top));
   left: calc(100% - 100px);
@@ -26076,6 +26077,7 @@ page-bj .slide_19 .bj_slide_area .bj_text2 {
 
 page-bj .slide_19 .bj_slide_area .bj_text2 .bj_text2_point {
   color: #fff45c;
+  font-family: "SIMKAI";
   font-size: 30px;
 }
 
@@ -26126,7 +26128,7 @@ page-bj .slide_19 .bj_slide_area .bj_grid .bj_row .bj_col .col_text_area {
 
 page-bj .slide_19 .bj_slide_area .bj_grid .bj_row .bj_col .col_text_area .col_text {
   font-size: 20px;
-  font-family: "STKaiti";
+  font-family: "SIMKAI";
   z-index: 1;
 }
 
@@ -26145,7 +26147,7 @@ page-bj .slide_19 .bj_slide_area .bj_button {
   min-height: 34px;
   height: 34px;
   font-size: 20px;
-  font-family: "STKaiti";
+  font-family: "SIMKAI";
   position: relative;
   top: calc(106px + env(safe-area-inset-top));
   float: left;
