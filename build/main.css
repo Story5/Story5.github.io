@@ -25722,32 +25722,16 @@ page-bj .slide_3 {
   background-image: url("../assets/images/background/3.jpg");
 }
 
-page-bj .slide_4 {
-  background-image: url("../assets/images/background/4.jpg");
-}
-
 page-bj .slide_5 {
   background-image: url("../assets/images/background/5.jpg");
-}
-
-page-bj .slide_6 {
-  background-image: url("../assets/images/background/6.jpg");
 }
 
 page-bj .slide_7 {
   background-image: url("../assets/images/background/7.jpg");
 }
 
-page-bj .slide_8 {
-  background-image: url("../assets/images/background/8.jpg");
-}
-
 page-bj .slide_9 {
   background-image: url("../assets/images/background/9.jpg");
-}
-
-page-bj .slide_10 {
-  background-image: url("../assets/images/background/10.jpg");
 }
 
 page-bj .slide_11 {
@@ -25825,7 +25809,8 @@ page-bj .slide_1 .bj_text_area {
   text-align: left;
 }
 
-page-bj .slide_1 .bj_text_area .bj_text1, page-bj .slide_1 .bj_text_area .bj_text2 {
+page-bj .slide_1 .bj_text_area .bj_text1,
+page-bj .slide_1 .bj_text_area .bj_text2 {
   font-family: "SIMKAI";
 }
 
@@ -25871,13 +25856,16 @@ page-bj .slide_11 .bj_slide_area .bj_text,
 page-bj .slide_13 .bj_slide_area .bj_text,
 page-bj .slide_15 .bj_slide_area .bj_text,
 page-bj .slide_17 .bj_slide_area .bj_text {
-  padding: 16px 30px 0px 30px;
-  text-align: left;
+  width: calc(100% - 60px);
+  text-align: justify;
   font-family: "SIMKAI";
   font-size: 18px;
   line-height: 32px;
+  word-break: break-all;
+  word-wrap: break-word;
   position: absolute;
   top: calc(74px + env(safe-area-inset-top));
+  left: 30px;
 }
 
 page-bj .slide_2 .bj_text {
