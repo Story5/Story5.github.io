@@ -131,6 +131,7 @@ var BJPage = /** @class */ (function () {
         this.selected = [];
     }
     BJPage.prototype.ionViewDidLoad = function () {
+        this.listen();
         // this.playMusic();
         this.initEcharts6();
         this.initEcharts10();
