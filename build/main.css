@@ -26070,8 +26070,8 @@ page-bj .slide_19 .bj_slide_area .bj_text2 {
   font-size: 25px;
   font-family: "STKaiti";
   position: absolute;
-  top: calc(74px + env(safe-area-inset-top));
-  left: calc(100% - 95px);
+  top: calc(70px + env(safe-area-inset-top));
+  left: calc(100% - 100px);
 }
 
 page-bj .slide_19 .bj_slide_area .bj_text2 .bj_text2_point {
@@ -26091,11 +26091,17 @@ page-bj .slide_19 .bj_slide_area .bj_grid {
   width: 75%;
   margin: 0px;
   position: relative;
-  top: calc(124px + env(safe-area-inset-top));
+  top: calc(106px + env(safe-area-inset-top));
+}
+
+page-bj .slide_19 .bj_slide_area .bj_grid .bj_row {
+  position: relative;
 }
 
 page-bj .slide_19 .bj_slide_area .bj_grid .bj_row .bj_col {
-  padding: 5px 5px 5px 5px;
+  padding: 0px !important;
+  min-height: 94px !important;
+  height: 100%;
 }
 
 page-bj .slide_19 .bj_slide_area .bj_grid .bj_row .bj_col .col_background {
@@ -26108,20 +26114,26 @@ page-bj .slide_19 .bj_slide_area .bj_grid .bj_row .bj_col .col_background {
   z-index: 0;
 }
 
-page-bj .slide_19 .bj_slide_area .bj_grid .bj_row .bj_col .col_background .col_text {
+page-bj .slide_19 .bj_slide_area .bj_grid .bj_row .bj_col .col_background.selected {
+  background-image: url(../assets/images/cloud_v.png);
+}
+
+page-bj .slide_19 .bj_slide_area .bj_grid .bj_row .bj_col .col_text_area {
+  height: 45px;
+  position: relative;
+  margin-top: -69.5px;
+}
+
+page-bj .slide_19 .bj_slide_area .bj_grid .bj_row .bj_col .col_text_area .col_text {
   font-size: 20px;
   font-family: "STKaiti";
   z-index: 1;
 }
 
-page-bj .slide_19 .bj_slide_area .bj_grid .bj_row .bj_col .col_background .col_space {
-  min-height: 10px;
-  height: 10px;
+page-bj .slide_19 .bj_slide_area .bj_grid .bj_row .bj_col .col_text_area .col_space {
+  min-height: 5px;
+  height: 5px;
   z-index: 1;
-}
-
-page-bj .slide_19 .bj_slide_area .bj_grid .bj_row .bj_col .col_background.selected {
-  background-image: url(../assets/images/cloud_v.png);
 }
 
 page-bj .slide_19 .bj_slide_area .bj_button {
@@ -26130,12 +26142,12 @@ page-bj .slide_19 .bj_slide_area .bj_button {
   background-position: center;
   width: 94px;
   min-width: 94px;
-  min-height: 94px;
+  min-height: 34px;
   height: 34px;
   font-size: 20px;
   font-family: "STKaiti";
   position: relative;
-  top: calc(124px + env(safe-area-inset-top));
+  top: calc(106px + env(safe-area-inset-top));
   float: left;
   margin-left: 25px;
 }
