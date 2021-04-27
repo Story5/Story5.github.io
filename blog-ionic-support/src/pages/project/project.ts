@@ -1,7 +1,8 @@
-import { PasswordManagerPage } from './projectHub/password-manager/password-manager';
 import { Component } from '@angular/core';
 import { NavController, IonicPage } from 'ionic-angular';
-import { BJPage } from './projectHub/bj/bj';
+import { PasswordManagerPage } from './project-hub/password-manager/password-manager';
+import { BJPage } from './project-hub/bj/bj';
+import { AMapPage } from './project-hub/amap/amap';
 
 @IonicPage({
   name: "project-page",
@@ -13,15 +14,22 @@ import { BJPage } from './projectHub/bj/bj';
 })
 export class ProjectPage {
 
-  projects = [
+  projects:Array<{
+    title:string,
+    page:any
+  }> = [
+    // {
+    //   title: "财务管理系统",
+    //   page: PasswordManagerPage
+    // },
     {
       title: "皇帝那些事儿",
       page: BJPage
+    },
+    {
+      title:"高德地图",
+      page:AMapPage
     }
-    // ,{
-    //   title: "财务管理系统",
-    //   page: PasswordManagerPage
-    // }
   ]
 
   constructor(public navCtrl: NavController) {

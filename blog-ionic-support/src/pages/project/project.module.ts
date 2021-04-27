@@ -1,21 +1,26 @@
 import { NgModule } from '@angular/core';
 import { IonicPageModule } from 'ionic-angular';
+// page-project
 import { ProjectPage } from './project';
-import { PasswordManagerPageModule } from './projectHub/password-manager/password-manager.module';
-import { BJPage } from './projectHub/bj/bj';
+import { BJPage } from './project-hub/bj/bj';
+import { AMapPage } from './project-hub/amap/amap';
+import { PasswordManagerPage } from './project-hub/password-manager/password-manager';
 
 @NgModule({
   declarations: [
     ProjectPage,
-    BJPage,
+    PasswordManagerPage,
+    BJPage,    
+    AMapPage,
   ],
   imports: [
     IonicPageModule.forChild(ProjectPage),
-    PasswordManagerPageModule
   ],
   entryComponents: [
     ProjectPage,
-    BJPage
+    PasswordManagerPage,
+    BJPage,
+    AMapPage,
   ]
 })
 export class ProjectPageModule { }

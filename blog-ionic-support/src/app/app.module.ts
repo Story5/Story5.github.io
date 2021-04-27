@@ -1,6 +1,12 @@
 import { NgModule, ErrorHandler } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { IonicApp, IonicModule, IonicErrorHandler, IonicPageModule } from 'ionic-angular';
+import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
+// @ionic-native
+import { StatusBar } from '@ionic-native/status-bar';
+import { SplashScreen } from '@ionic-native/splash-screen';
+// providers
+import { AMapProvider } from '../providers/amap/AMap';
+// pages
 import { MyApp } from './app.component';
 
 import { TabsPage } from '../pages/tabs/tabs';
@@ -12,10 +18,6 @@ import { ArticlePage } from '../pages/article/article';
 import { ProjectPageModule } from './../pages/project/project.module';
 // 我的
 import { MinePage } from '../pages/mine/mine';
-
-
-import { StatusBar } from '@ionic-native/status-bar';
-import { SplashScreen } from '@ionic-native/splash-screen';
 
 @NgModule({
   declarations: [
@@ -53,7 +55,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    AMapProvider
   ]
 })
 export class AppModule {}

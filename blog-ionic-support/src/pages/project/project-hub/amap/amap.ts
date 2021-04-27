@@ -1,25 +1,20 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { NavController } from 'ionic-angular';
+import { AMapProvider } from '../../../../providers/amap/AMap';
+declare var AMapLoader
 
-/**
- * Generated class for the AmapPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-
-@IonicPage()
 @Component({
   selector: 'page-amap',
   templateUrl: 'amap.html',
 })
-export class AmapPage {
+export class AMapPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(
+    private navCtrl: NavController,
+    private amap:AMapProvider) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad AmapPage');
+    this.amap.initAMap('container');
   }
-
 }
