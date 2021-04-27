@@ -31,6 +31,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp,{
+      backButtonText:'',
       iconMode: 'ios',
       pageTransition: 'ios-transition',
       swipeBackEnabled: true,
