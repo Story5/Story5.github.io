@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>下属行政区查询</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="clickConfirm()">
+        <ion-icon name="checkmark"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+  <ion-list>
+    <ion-item>
+      <ion-label>省市区</ion-label>
+      <ion-select [(ngModel)]="country.province_index" (ionChange)="selectChange('province')">
+        <ion-option value="-1">--请选择--</ion-option>
+        <ion-option *ngFor="let item of country.province;let i = index" [value]="i">{{item.name}}</ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-label>地级市</ion-label>
+      <ion-select [(ngModel)]="country.city_index" (ionChange)="selectChange('city')">
+        <ion-option value="-1">--请选择--</ion-option>
+        <ion-option *ngFor="let item of country.city;let i = index" [value]="i">{{item.name}}</ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-label>区县</ion-label>
+      <ion-select [(ngModel)]="country.district_index" (ionChange)="selectChange('district')">
+        <ion-option value="-1">--请选择--</ion-option>
+        <ion-option *ngFor="let item of country.district;let i = index" [value]="i">{{item.name}}</ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-label>街道</ion-label>
+      <ion-select [(ngModel)]="country.street_adcoce" (ionChange)="selectChange('street')">
+        <ion-option value="-1">--请选择--</ion-option>
+        <ion-option *ngFor="let item of country.street;let i = index" [value]="i">{{item.name}}</ion-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+</ion-content>

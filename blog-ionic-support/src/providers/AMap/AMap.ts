@@ -11,6 +11,7 @@ export class AMapProvider {
   map: any;
   constructor() {
   }
+  
   initAMap(container, loaded?: Function, complete?: Function) {
     AMapLoader.load({
       key: AMapKey_Web, //首次调用load必须填写key
@@ -18,7 +19,9 @@ export class AMapProvider {
       plugins: [
         'AMap.Scale',
         'AMap.ToolBar',
-        'AMap.Geolocation'
+        'AMap.Geolocation',
+        'AMap.DistrictSearch',
+        'AMap.PlaceSearch',
       ]  //同步加载的插件列表
     }).then((AMap) => {
       // 构造地图对象的方法一：使用地图容器ID创建
@@ -146,4 +149,13 @@ export class AMapProvider {
       throw 'lnglat1 不是 AMap.LngLat 类型';
     }
   }
+}
+
+export interface AMap_district_interface {
+  citycode:Array<any>;
+  adcode:string;
+  name:string;
+  center:Array<number>;
+  level:string;
+  districtList?:Array<AMap_district_interface>
 }

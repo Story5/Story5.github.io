@@ -5,7 +5,7 @@ import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 // providers
-import { AMapProvider } from '../providers/amap/AMap';
+import { AMapProvider } from '../providers/AMap/AMap';
 // pages
 import { MyApp } from './app.component';
 

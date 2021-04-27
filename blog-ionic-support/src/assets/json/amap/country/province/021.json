@@ -1,0 +1,32 @@
+{
+    "info": "OK",
+    "districtList": [
+        {
+            "citycode": "021",
+            "adcode": "310000",
+            "name": "上海市",
+            "center": {
+                "Q": 31.231706,
+                "R": 121.472644,
+                "lng": 121.472644,
+                "lat": 31.231706
+            },
+            "level": "province",
+            "districtList": [
+                {
+                    "citycode": "021",
+                    "adcode": "310100",
+                    "name": "上海城区",
+                    "center": {
+                        "Q": 31.231706,
+                        "R": 121.472644,
+                        "lng": 121.472644,
+                        "lat": 31.231706
+                    },
+                    "level": "city",
+                    "boundaries": []
+                }
+            ]
+        }
+    ]
+}

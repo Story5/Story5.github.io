@@ -1,0 +1,227 @@
+{
+    "info": "OK",
+    "districtList": [
+        {
+            "citycode": "021",
+            "adcode": "310100",
+            "name": "上海城区",
+            "center": {
+                "Q": 31.231706,
+                "R": 121.472644,
+                "lng": 121.472644,
+                "lat": 31.231706
+            },
+            "level": "city",
+            "districtList": [
+                {
+                    "citycode": "021",
+                    "adcode": "310116",
+                    "name": "金山区",
+                    "center": {
+                        "Q": 30.724697,
+                        "R": 121.330736,
+                        "lng": 121.330736,
+                        "lat": 30.724697
+                    },
+                    "level": "district",
+                    "boundaries": []
+                },
+                {
+                    "citycode": "021",
+                    "adcode": "310151",
+                    "name": "崇明区",
+                    "center": {
+                        "Q": 31.626946,
+                        "R": 121.397516,
+                        "lng": 121.397516,
+                        "lat": 31.626946
+                    },
+                    "level": "district",
+                    "boundaries": []
+                },
+                {
+                    "citycode": "021",
+                    "adcode": "310115",
+                    "name": "浦东新区",
+                    "center": {
+                        "Q": 31.245944,
+                        "R": 121.56770599999999,
+                        "lng": 121.567706,
+                        "lat": 31.245944
+                    },
+                    "level": "district",
+                    "boundaries": []
+                },
+                {
+                    "citycode": "021",
+                    "adcode": "310120",
+                    "name": "奉贤区",
+                    "center": {
+                        "Q": 30.912345,
+                        "R": 121.45847200000003,
+                        "lng": 121.458472,
+                        "lat": 30.912345
+                    },
+                    "level": "district",
+                    "boundaries": []
+                },
+                {
+                    "citycode": "021",
+                    "adcode": "310114",
+                    "name": "嘉定区",
+                    "center": {
+                        "Q": 31.383524,
+                        "R": 121.25033300000001,
+                        "lng": 121.250333,
+                        "lat": 31.383524
+                    },
+                    "level": "district",
+                    "boundaries": []
+                },
+                {
+                    "citycode": "021",
+                    "adcode": "310107",
+                    "name": "普陀区",
+                    "center": {
+                        "Q": 31.241701,
+                        "R": 121.39249899999999,
+                        "lng": 121.392499,
+                        "lat": 31.241701
+                    },
+                    "level": "district",
+                    "boundaries": []
+                },
+                {
+                    "citycode": "021",
+                    "adcode": "310113",
+                    "name": "宝山区",
+                    "center": {
+                        "Q": 31.398896,
+                        "R": 121.489934,
+                        "lng": 121.489934,
+                        "lat": 31.398896
+                    },
+                    "level": "district",
+                    "boundaries": []
+                },
+                {
+                    "citycode": "021",
+                    "adcode": "310101",
+                    "name": "黄浦区",
+                    "center": {
+                        "Q": 31.222771,
+                        "R": 121.490317,
+                        "lng": 121.490317,
+                        "lat": 31.222771
+                    },
+                    "level": "district",
+                    "boundaries": []
+                },
+                {
+                    "citycode": "021",
+                    "adcode": "310110",
+                    "name": "杨浦区",
+                    "center": {
+                        "Q": 31.270755,
+                        "R": 121.52279699999997,
+                        "lng": 121.522797,
+                        "lat": 31.270755
+                    },
+                    "level": "district",
+                    "boundaries": []
+                },
+                {
+                    "citycode": "021",
+                    "adcode": "310117",
+                    "name": "松江区",
+                    "center": {
+                        "Q": 31.03047,
+                        "R": 121.223543,
+                        "lng": 121.223543,
+                        "lat": 31.03047
+                    },
+                    "level": "district",
+                    "boundaries": []
+                },
+                {
+                    "citycode": "021",
+                    "adcode": "310109",
+                    "name": "虹口区",
+                    "center": {
+                        "Q": 31.26097,
+                        "R": 121.49183199999999,
+                        "lng": 121.491832,
+                        "lat": 31.26097
+                    },
+                    "level": "district",
+                    "boundaries": []
+                },
+                {
+                    "citycode": "021",
+                    "adcode": "310105",
+                    "name": "长宁区",
+                    "center": {
+                        "Q": 31.218123,
+                        "R": 121.42219999999998,
+                        "lng": 121.4222,
+                        "lat": 31.218123
+                    },
+                    "level": "district",
+                    "boundaries": []
+                },
+                {
+                    "citycode": "021",
+                    "adcode": "310106",
+                    "name": "静安区",
+                    "center": {
+                        "Q": 31.229003,
+                        "R": 121.44822399999998,
+                        "lng": 121.448224,
+                        "lat": 31.229003
+                    },
+                    "level": "district",
+                    "boundaries": []
+                },
+                {
+                    "citycode": "021",
+                    "adcode": "310112",
+                    "name": "闵行区",
+                    "center": {
+                        "Q": 31.111658,
+                        "R": 121.37597199999999,
+                        "lng": 121.375972,
+                        "lat": 31.111658
+                    },
+                    "level": "district",
+                    "boundaries": []
+                },
+                {
+                    "citycode": "021",
+                    "adcode": "310104",
+                    "name": "徐汇区",
+                    "center": {
+                        "Q": 31.179973,
+                        "R": 121.43752,
+                        "lng": 121.43752,
+                        "lat": 31.179973
+                    },
+                    "level": "district",
+                    "boundaries": []
+                },
+                {
+                    "citycode": "021",
+                    "adcode": "310118",
+                    "name": "青浦区",
+                    "center": {
+                        "Q": 31.151209,
+                        "R": 121.113021,
+                        "lng": 121.113021,
+                        "lat": 31.151209
+                    },
+                    "level": "district",
+                    "boundaries": []
+                }
+            ]
+        }
+    ]
+}

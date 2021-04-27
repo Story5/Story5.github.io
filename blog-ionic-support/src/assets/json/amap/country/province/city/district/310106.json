@@ -1,0 +1,201 @@
+{
+    "info": "OK",
+    "districtList": [
+        {
+            "citycode": "021",
+            "adcode": "310106",
+            "name": "静安区",
+            "center": {
+                "Q": 31.229003,
+                "R": 121.44822399999998,
+                "lng": 121.448224,
+                "lat": 31.229003
+            },
+            "level": "district",
+            "districtList": [
+                {
+                    "citycode": "021",
+                    "adcode": "310106",
+                    "name": "北站街道",
+                    "center": {
+                        "Q": 31.2527,
+                        "R": 121.48000000000002,
+                        "lng": 121.48,
+                        "lat": 31.2527
+                    },
+                    "level": "street",
+                    "boundaries": []
+                },
+                {
+                    "citycode": "021",
+                    "adcode": "310106",
+                    "name": "石门二路街道",
+                    "center": {
+                        "Q": 31.2388,
+                        "R": 121.459,
+                        "lng": 121.459,
+                        "lat": 31.2388
+                    },
+                    "level": "street",
+                    "boundaries": []
+                },
+                {
+                    "citycode": "021",
+                    "adcode": "310106",
+                    "name": "江宁路街道",
+                    "center": {
+                        "Q": 31.2406,
+                        "R": 121.445,
+                        "lng": 121.445,
+                        "lat": 31.2406
+                    },
+                    "level": "street",
+                    "boundaries": []
+                },
+                {
+                    "citycode": "021",
+                    "adcode": "310106",
+                    "name": "彭浦新村街道",
+                    "center": {
+                        "Q": 31.317,
+                        "R": 121.44799999999998,
+                        "lng": 121.448,
+                        "lat": 31.317
+                    },
+                    "level": "street",
+                    "boundaries": []
+                },
+                {
+                    "citycode": "021",
+                    "adcode": "310106",
+                    "name": "天目西路街道",
+                    "center": {
+                        "Q": 31.2488,
+                        "R": 121.45999999999998,
+                        "lng": 121.46,
+                        "lat": 31.2488
+                    },
+                    "level": "street",
+                    "boundaries": []
+                },
+                {
+                    "citycode": "021",
+                    "adcode": "310106",
+                    "name": "彭浦镇",
+                    "center": {
+                        "Q": 31.3059,
+                        "R": 121.43200000000002,
+                        "lng": 121.432,
+                        "lat": 31.3059
+                    },
+                    "level": "street",
+                    "boundaries": []
+                },
+                {
+                    "citycode": "021",
+                    "adcode": "310106",
+                    "name": "曹家渡街道",
+                    "center": {
+                        "Q": 31.235,
+                        "R": 121.43299999999999,
+                        "lng": 121.433,
+                        "lat": 31.235
+                    },
+                    "level": "street",
+                    "boundaries": []
+                },
+                {
+                    "citycode": "021",
+                    "adcode": "310106",
+                    "name": "芷江西路街道",
+                    "center": {
+                        "Q": 31.2603,
+                        "R": 121.459,
+                        "lng": 121.459,
+                        "lat": 31.2603
+                    },
+                    "level": "street",
+                    "boundaries": []
+                },
+                {
+                    "citycode": "021",
+                    "adcode": "310106",
+                    "name": "南京西路街道",
+                    "center": {
+                        "Q": 31.2255,
+                        "R": 121.46800000000002,
+                        "lng": 121.468,
+                        "lat": 31.2255
+                    },
+                    "level": "street",
+                    "boundaries": []
+                },
+                {
+                    "citycode": "021",
+                    "adcode": "310106",
+                    "name": "大宁路街道",
+                    "center": {
+                        "Q": 31.2793,
+                        "R": 121.46100000000001,
+                        "lng": 121.461,
+                        "lat": 31.2793
+                    },
+                    "level": "street",
+                    "boundaries": []
+                },
+                {
+                    "citycode": "021",
+                    "adcode": "310106",
+                    "name": "共和新路街道",
+                    "center": {
+                        "Q": 31.2717,
+                        "R": 121.46699999999998,
+                        "lng": 121.467,
+                        "lat": 31.2717
+                    },
+                    "level": "street",
+                    "boundaries": []
+                },
+                {
+                    "citycode": "021",
+                    "adcode": "310106",
+                    "name": "静安寺街道",
+                    "center": {
+                        "Q": 31.2236,
+                        "R": 121.43600000000004,
+                        "lng": 121.436,
+                        "lat": 31.2236
+                    },
+                    "level": "street",
+                    "boundaries": []
+                },
+                {
+                    "citycode": "021",
+                    "adcode": "310106",
+                    "name": "宝山路街道",
+                    "center": {
+                        "Q": 31.26,
+                        "R": 121.47899999999998,
+                        "lng": 121.479,
+                        "lat": 31.26
+                    },
+                    "level": "street",
+                    "boundaries": []
+                },
+                {
+                    "citycode": "021",
+                    "adcode": "310106",
+                    "name": "临汾路街道",
+                    "center": {
+                        "Q": 31.3135,
+                        "R": 121.45499999999998,
+                        "lng": 121.455,
+                        "lat": 31.3135
+                    },
+                    "level": "street",
+                    "boundaries": []
+                }
+            ]
+        }
+    ]
+}
