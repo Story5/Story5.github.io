@@ -2,7 +2,9 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { AMapProvider, AMap_district_interface } from '../../../../providers/AMap/AMap';
 import { AmapChooseCityPage } from './amap-choose-city/amap-choose-city';
+
 declare var AMap;
+
 @Component({
   selector: 'page-amap',
   templateUrl: 'amap.html',
@@ -10,8 +12,8 @@ declare var AMap;
 export class AMapPage {
 
   city = {
-    adcode: "021",
-    name: '上海',
+    adcode: '100000',
+    name: '中国',
   }
 
   constructor(
@@ -25,6 +27,29 @@ export class AMapPage {
 
   initAMap() {
     this.amap.initAMap('container', (map) => {
+      //初始化地图时，若center属性缺省，地图默认定位到用户所在城市的中心
+      // this.city.adcode = map.getAdcode();
+      map.getCity(result => {
+        console.log("getCity:",JSON.stringify(result));
+        this.city.adcode = result.citycode;
+        this.city.name = result.province;
+      });
+
+      // //实例化城市查询类
+      // var citysearch = new AMap.CitySearch();
+      // //自动获取用户IP，返回当前城市
+      // citysearch.getLocalCity((status, result) => {
+      //   if (status === 'complete' && result.info === 'OK') {
+      //     console.log("getLocalCity:", JSON.stringify(result));
+      //     if (result) {
+      //       this.city.adcode = result.adcode;
+      //       this.city.name = result.city;
+      //       //地图显示当前城市
+      //       map.setBounds(result.bounds);
+      //     }
+      //   }
+      // });
+
       // //构造地点查询类
       // var placeSearch = new AMap.PlaceSearch({
       //   pageSize: 10, // 单页显示结果条数
@@ -40,10 +65,6 @@ export class AMapPage {
       //   // 搜索成功时，result即是对应的匹配数据
       //   console.log(result);
       // });
-      map.setCenter([
-        113.665412,
-        34.757975
-      ]);
     });
   }
 

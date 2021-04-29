@@ -20,6 +20,7 @@ export class AMapProvider {
         'AMap.Scale',
         'AMap.ToolBar',
         'AMap.Geolocation',
+        'AMap.CitySearch',
         'AMap.DistrictSearch',
         'AMap.PlaceSearch',
       ]  //同步加载的插件列表
