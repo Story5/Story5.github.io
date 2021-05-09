@@ -12,28 +12,28 @@
   <ion-list>
     <ion-item>
       <ion-label>省市区</ion-label>
-      <ion-select [(ngModel)]="country.province_index" (ionChange)="selectChange('province')">
+      <ion-select [(ngModel)]="country.province_index" cancelText="取消" okText="确定" (ionChange)="selectChange('province')">
         <ion-option value="-1">--请选择--</ion-option>
         <ion-option *ngFor="let item of country.province;let i = index" [value]="i">{{item.name}}</ion-option>
       </ion-select>
     </ion-item>
     <ion-item>
       <ion-label>地级市</ion-label>
-      <ion-select [(ngModel)]="country.city_index" (ionChange)="selectChange('city')">
+      <ion-select [(ngModel)]="country.city_index" cancelText="取消" okText="确定" (ionChange)="selectChange('city')">
         <ion-option value="-1">--请选择--</ion-option>
         <ion-option *ngFor="let item of country.city;let i = index" [value]="i">{{item.name}}</ion-option>
       </ion-select>
     </ion-item>
     <ion-item>
       <ion-label>区县</ion-label>
-      <ion-select [(ngModel)]="country.district_index" (ionChange)="selectChange('district')">
+      <ion-select [(ngModel)]="country.district_index" cancelText="取消" okText="确定" (ionChange)="selectChange('district')">
         <ion-option value="-1">--请选择--</ion-option>
         <ion-option *ngFor="let item of country.district;let i = index" [value]="i">{{item.name}}</ion-option>
       </ion-select>
     </ion-item>
     <ion-item>
       <ion-label>街道</ion-label>
-      <ion-select [(ngModel)]="country.street_adcoce" (ionChange)="selectChange('street')">
+      <ion-select [(ngModel)]="country.street_index" cancelText="取消" okText="确定" (ionChange)="selectChange('street')">
         <ion-option value="-1">--请选择--</ion-option>
         <ion-option *ngFor="let item of country.street;let i = index" [value]="i">{{item.name}}</ion-option>
       </ion-select>

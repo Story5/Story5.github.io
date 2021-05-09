@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import { AMap_district_interface } from '../../../../../providers/AMap/AMap';
+import { TipProvider } from '../../../../../providers/sx-tip';
 declare var AMap;
 @Component({
   selector: 'page-amap-choose-city',
@@ -22,16 +23,19 @@ export class AmapChooseCityPage {
   }
   amapDistrict;
 
-  constructor(private navCtrl: NavController, private navParams: NavParams) {
+  constructor(
+    private navCtrl: NavController, 
+    private navParams: NavParams,
+    private tip:TipProvider) {
   }
 
   ionViewDidLoad() {
     this.callback = this.navParams.get("callback");
-    this.initAMapDIstrict();
+    this.initAMapDistrict();
     this.search();
   }
 
-  initAMapDIstrict() {
+  initAMapDistrict() {
     this.amapDistrict = new AMap.DistrictSearch({
       subdistrict: 1,//返回下一级行政区
       showbiz: false//最后一级返回街道信息
@@ -50,7 +54,9 @@ export class AmapChooseCityPage {
 
   // adcode = 100000 表示 中国
   search(adcode: string = '100000') {
+    this.tip.presentLoading();
     this.amapDistrict.search(adcode, (status, result) => {
+      this.tip.dismissLoading();
       if (status == 'complete') {
         let data: AMap_district_interface = result.districtList[0];
         if (data.districtList && data.districtList.length > 0) {
@@ -87,7 +93,7 @@ export class AmapChooseCityPage {
       }
       this.navCtrl.pop();
     } else {
-      alert('请选择');
+      this.tip.alert('请选择');
     }
   }
 

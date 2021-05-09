@@ -6,6 +6,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 // providers
 import { AMapProvider } from '../providers/AMap/AMap';
+import { TipProvider } from '../providers/sx-tip';
 // pages
 import { MyApp } from './app.component';
 
@@ -56,7 +57,8 @@ import { MinePage } from '../pages/mine/mine';
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    AMapProvider
+    AMapProvider,
+    TipProvider
   ]
 })
 export class AppModule {}
