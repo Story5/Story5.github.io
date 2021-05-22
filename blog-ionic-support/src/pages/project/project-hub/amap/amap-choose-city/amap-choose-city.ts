@@ -7,7 +7,7 @@ declare var AMap;
   selector: 'page-amap-choose-city',
   templateUrl: 'amap-choose-city.html',
 })
-export class AmapChooseCityPage {
+export class AMapChooseCityPage {
 
   callback: any;
 

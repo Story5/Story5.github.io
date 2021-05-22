@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>搜索设置</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="clickConfirm()">
+        <ion-icon name="checkmark"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item>
+      <ion-label>单页显示结果条数</ion-label>
+      <ion-select [(ngModel)]="pageSize" cancelText="取消" okText="确定"
+        (ionChange)="selectChange()">
+        <ion-option *ngFor="let item of optionList" [value]="item">{{item}}</ion-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+</ion-content>

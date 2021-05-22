@@ -9,11 +9,7 @@
   </ion-navbar>
 </ion-header>
 <ion-content>
-  <ion-searchbar *ngIf="showSearchbar" [(ngModel)]="searchText" showCancelButton="true" cancelButtonText="取消" placeholder="请输入关键字搜索" (ionInput)="onInput($event)"
-    (ionCancel)="onCancel($event)">
-  </ion-searchbar>
   <div id="container"></div>
-  <div id="panel"></div>
 </ion-content>
 <ion-footer>
   <ion-toolbar>

@@ -24,7 +24,7 @@ export function sxalert(msg) {
 
 @Injectable()
 export class TipProvider {
-  appName: string = "蓝星周报";
+  appName: string = "溫馨提示";
   duration: number = 200;
 
   loader: Loading;
