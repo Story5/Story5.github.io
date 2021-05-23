@@ -31,12 +31,12 @@
         <ion-option *ngFor="let item of country.district;let i = index" [value]="i">{{item.name}}</ion-option>
       </ion-select>
     </ion-item>
-    <ion-item>
+    <!-- <ion-item>
       <ion-label>街道</ion-label>
       <ion-select [(ngModel)]="country.street_index" cancelText="取消" okText="确定" (ionChange)="selectChange('street')">
         <ion-option value="-1">--请选择--</ion-option>
         <ion-option *ngFor="let item of country.street;let i = index" [value]="i">{{item.name}}</ion-option>
       </ion-select>
-    </ion-item>
+    </ion-item> -->
   </ion-list>
 </ion-content>

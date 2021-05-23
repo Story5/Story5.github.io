@@ -58,6 +58,7 @@ export class AMapChooseCityPage {
     this.amapDistrict.search(adcode, (status, result) => {
       this.tip.dismissLoading();
       if (status == 'complete') {
+        console.log(result);
         let data: AMap_district_interface = result.districtList[0];
         if (data.districtList && data.districtList.length > 0) {
           let firstLevel = data.districtList[0].level;

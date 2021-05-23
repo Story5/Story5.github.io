@@ -9,10 +9,20 @@
   </ion-navbar>
 
   <ion-searchbar [(ngModel)]="searchText" showCancelButton="true" cancelButtonText="取消"
-    placeholder="请输入关键字搜索" (ionInput)="onInput($event)" (ionCancel)="onCancel($event)">
+    placeholder="请输入关键字搜索" (ionInput)="onInput($event)" (ionClear)="onClear($event)" (ionCancel)="onCancel($event)">
   </ion-searchbar>
 </ion-header>
 
 <ion-content>
   <div id="panel"></div>
 </ion-content>
+<ion-footer>
+  <ion-toolbar>
+    <ion-title>单页显示结果条数({{pageSize}})</ion-title>
+    <ion-buttons end>
+      <button *ngIf="this.searchResult?.info == 'OK'" ion-button icon-only (click)="clickDownload()">
+        <ion-icon name="download"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-footer>
